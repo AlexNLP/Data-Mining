@@ -1,6 +1,6 @@
-site_name: your_site_name
-site_description: A cool description
-site_url: https://mara-li.github.io/obsidian-mkdocs-publisher-template/
+site_name: Data Mining
+site_description: An interesting sharing website about data mining and network analysis.
+site_url: https://AlexNLP.github.io/Data-Mining/
 
 theme:
     name: 'material'
