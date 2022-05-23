@@ -2,7 +2,7 @@
 share: ture 
 ---
 
-# nlp-datasets/README.md
+# nlp-datasets
 
 [github.com](https://github.com/niderhoff/nlp-datasets/blob/master/README.md)
 
