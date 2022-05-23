@@ -3,7 +3,7 @@ share: ture
 ---
 # nlp-datasets/README.md
 
-[github.com](https://github.com/niderhoff/nlp-datasets/blob/master/README.md)niderhoff
+[github.com](https://github.com/niderhoff/nlp-datasets/blob/master/README.md)
 
 *   [Apache Software Foundation Public Mail Archives](http://aws.amazon.com/de/datasets/apache-software-foundation-public-mail-archives/): all publicly available Apache Software Foundation mail archives as of July 11, 2011 (200 GB)
     
