@@ -1,7 +1,6 @@
 ---
 share: ture
 ---
-
 # Reddit爬虫笔记
 
 **Reddit** is a network of communities where people can dive into their interests, hobbies and passions. There's a community for whatever you're interested in on **Reddit**.
@@ -84,6 +83,7 @@ data = pd.DataFrame(messages)
 data.to_csv('data.csv', index=False)
 
 ```
+
   这样就能获得你想要的数据了
 - reddit API持续开发|
   这部分可以详见Reddit给出的官方文档，按照文档即可得到相应的数据。 
@@ -117,6 +117,7 @@ Scrapy爬虫的简单介绍可以参见：
 ```code
 scrapy startproject reddit
 ```
+
 就会得到这样的文件夹
 ```code
 reddit/
@@ -130,6 +131,7 @@ reddit/
             __init__.py
             ...
 ```
+
 这些文件分别是:
  - scrapy.cfg: 项目的配置文件。
  - reddit/: 该项目的python模块。之后您将在此加入代码。 
@@ -140,12 +142,15 @@ reddit/
 
 - 在reddit/spiders目录下创建reddit.py文件
 ```
+
 scrapy genspider reddit reddit.com
 ```
+
 - 启动爬虫
 ```code
 scrapy crawl reddit
 ```
+
 这样就可以爬取reddit.com上的子社区的数据啦。
 
 Reddit网站Scrapy爬虫示例可以参见：
@@ -169,6 +174,7 @@ headers = {'User-Agent': 'Mozilla/5.0'}
 page = requests.get(url, headers=headers)
 
 ```
+
 
 - 需要主要是这样的方式爬虫会导致UA和IP被封，因此，我们需要建立Random UA和IP池来动态管理爬虫进程的伪装，具体的操作可以详见：
   [(36条消息) 八、python爬虫伪装 [免费伪装ip伪装请求头]_袁六加.的博客-CSDN博客_python伪装ip](https://blog.csdn.net/weixin_51852924/article/details/120019488)
