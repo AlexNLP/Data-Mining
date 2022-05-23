@@ -92,7 +92,7 @@ data.to_csv('data.csv', index=False)
   - ***问题：目前Reddit 只能科学访问。如果按照正常的爬虫方式来获取网站数据会遇到
 prawcore.exceptions.RequestException: error with request HTTPSConnectionPool(host='www.reddit.com', [[port=443]]): Max retries exceeded with url: /api/v1/access_token (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))>)***
 
-  - ***解决:
+  - ***解决:***
   
   相关解决参考
   [# HTTPSConnectionPool(host='xxxxx', port=443): Max retries exceeded with url:xxxxxxxx (Caused by Ne...](https://blog.csdn.net/qq_39377418/article/details/102552822), 
