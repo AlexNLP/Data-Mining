@@ -2,12 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://AlexNLP.github.io/Data-Mining/NLP/README..../</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-06-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://AlexNLP.github.io/Data-Mining/NLP/%E6%8F%92%E6%A7%BD%E5%A1%AB%E5%85%85%28Slot%20Filling%29%E5%92%8C%E6%84%8F%E5%9B%BE%E6%A3%80%E6%B5%8B%28Inten%20Detection%29/</loc>
+         <lastmod>2022-06-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://AlexNLP.github.io/Data-Mining/data%20mining/Reddit%E7%88%AC%E8%99%AB%E6%89%80%E9%81%87%E9%97%AE%E9%A2%98%E8%AF%A6%E8%A7%A3/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-06-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

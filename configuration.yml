@@ -1,0 +1,14 @@
+actions:
+  configuration:
+    input: null
+    output: .
+  convert:
+    admonition: true
+    hashtags: true
+  frontmatter:
+    category:
+      default value: NLP
+      key: category
+    index: (i)
+    share: share
+  weblink: null
